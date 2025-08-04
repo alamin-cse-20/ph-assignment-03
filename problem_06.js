@@ -10,6 +10,6 @@ var startingSalary = 45000;
 // console.log(presentSalary.toFixed(2));
 
 
-// Using compound interest formula
+// Using compound interest formula to reduce complexity 
 var presentSalary = startingSalary * Math.pow(1.05, experience);
 console.log(presentSalary.toFixed(2));
